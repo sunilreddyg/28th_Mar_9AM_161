@@ -1,6 +1,7 @@
 package variables;
 
-public class String_Comparision_Commands {
+public class String_Comparision_Commands 
+{
 
 	public static void main(String[] args) 
 	{
@@ -53,8 +54,8 @@ public class String_Comparision_Commands {
 		String mobile="9030248855";
 		int len=mobile.length();
 		System.out.println("Mobile number length is => "+len);
-
 		
+
 		/*
 		 * trim:-->
 		 * 		method trim extra spaces with in string
@@ -64,6 +65,39 @@ public class String_Comparision_Commands {
 		//Perform trim method
 		String New_pincode=pincode.trim();
 		System.out.println("Pincode length after trim => "+New_pincode.length());
+		
+		
+		/*
+		 * subString:-->
+		 * 			method get sub string from main string
+		 */
+		String Account_number="10212457854214578";
+		String Last_Number=Account_number.substring(11);
+		System.out.println("Last six digit numbers are => "+Last_Number);
+		String Middle_number=Account_number.substring(5, 11);
+		System.out.println("Middle digit numbers are => "+Middle_number);
+		
+		
+		/*
+		 * Startswith:-->
+		 * 			Method verify required string available with expected
+		 * 			characters and return boolean value true/false
+		 */
+		String IFSC_Code="HDFC000012";
+		boolean flag3=IFSC_Code.startsWith("HDFC");
+		System.out.println("Status for Start with  => "+flag3);
+		
+		/*
+		 * isempty:-->
+		 * 			Method verify string empty status and return true/false
+		 */
+		String var="";
+		String var1="Hello";
+		System.out.println("Var empty status is => "+var.isEmpty());
+		System.out.println("Var1 empty status is => "+var1.isEmpty());
+		
+		
+		
 		
 	}
 

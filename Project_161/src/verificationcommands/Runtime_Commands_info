@@ -1,0 +1,111 @@
+Verification commands:-->
+					These commands capture application orginal behaviour at runtime, By capturing
+					application original behaviour we can verify expected bahaviour at user interface.
+					
+					Page-Verification commands
+					Element Verification commands
+					
+					
+					Page-Verification Commands:-->
+						
+									getTitle
+									getCurrentUrl
+									getpageSource
+									getwindowHandle
+									getwindowHandles
+									
+									
+					Element verification commands:-->
+									
+									gettext
+									getattribute
+									getcssvalue
+									getlocation
+									gettagname
+									getsize
+									getrect
+									
+									
+						Note:-->
+								Verification commands also known as  "OutputCommands" or "Checkpoints"			
+								In selenium all verification commands starts with Get-keyword
+============================================================
+	getTitle:--->
+			method capture current window title at runtime.
+			In webpapplication every page contain indepedent title.
+		
+			Syntax:-->
+					String Runtime_title=driver.getTitle();
+					System.out.println(Runtime_title);				
+====================================================================
+		
+getCurrenturl:-->
+				method capture current window Url at runtime.
+				In web application every page contains uniqe URL.
+			
+			Syntax:-->
+					String Runtime_url=driver.getCurrentUrl();
+					System.out.println(Runtime_url);				
+========================================================
+getPageSource:--->	
+			Method capture Entire pageSource into String format
+			during runtime.  [Backend HTML source]
+			
+			With in soruce we can verify
+					Title of a page
+					url of a page
+					Element ID's
+					page Text
+		
+			String pageSource=driver.getpageSource();
+			System.out.println(pageSoruce);
+==========================================
+getwindowhandle:---->
+	
+			Method return runtime dynamic ID of current window.			
+			Method helps to swicth window controls at runtime.
+			
+			String window_Id=driver.getwindowHandle();
+			System.out.println(window_Id);
+================================================================		
+getwindowhandles:-->
+			Method capture all window controls opened throw
+			webdriver script.
+			
+			Set<String> allwidows=driver.getWindowhandles();
+===================================================================
+getText:--->
+			Method capture selected element outter text at runtime.
+	
+			Syntax:--->
+				  WebElement Element=driver.findElement(By.id("x"));
+				  String Element_text=Element.getText();
+				  System.out.println(Element_text);
+				  
+			Note1:--> if selected element not contains any text method
+				      return empty status.
+				   
+			Note2:--> Method capture selected element and it's child
+					  outtertext.	
+					  
+			Note3:--> Method capture only visible text on webpage,In case element not 
+							visible method return empty status.
+					
+					Que:-->What we can verify with gettext?..  
+							
+							* We can verify Status messages visible at webpage
+							* We can verify error messages visible at webpage
+							* We can verify expected text visible at webpage
+======================================================>>
+
+				
+					
+					
+					
+					
+					
+									
+									
+									
+									
+					
