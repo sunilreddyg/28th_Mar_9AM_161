@@ -44,7 +44,7 @@ public class AlertHandling_Using_Try_Catch
 			e.printStackTrace();
 		} catch (UnhandledAlertException e) {
 			e.printStackTrace();
-		
+		}
 		
 		System.out.println("Script continued");
 		
