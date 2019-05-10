@@ -1,9 +1,4 @@
-/browser_launch/
-/corejava/
-/selenium_webdriver/
-/validation_Commands/
-/validationcommands/
-/switch_commands/
-/mouse_and_keyboard_interactions/
+/verificationcommands/
+/webdriver_locator/
+/sikuli_Image_tool/
 /robotactions/
-/robot_actions/
