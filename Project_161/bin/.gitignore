@@ -1,4 +1,7 @@
+/switch_commands/
+/validation_Commands/
+/variables/
 /verificationcommands/
 /webdriver_locator/
-/sikuli_Image_tool/
-/robotactions/
+/capturescreen/
+/javascript/
