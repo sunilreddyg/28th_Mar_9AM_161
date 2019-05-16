@@ -21,8 +21,7 @@ public class Wait_Until_Inputvalue_LoadAt_Editbox {
 		
 		//Enter email and press enter key at keyboard
 		driver.findElement(Email_locator).clear();
-		driver.findElement(Email_locator)
-		.sendKeys("mindq");
+		driver.findElement(Email_locator).sendKeys("mindq");
 		
 		//Apply explicit wait until required text visible at editbox.
 		new WebDriverWait(driver, 50).until

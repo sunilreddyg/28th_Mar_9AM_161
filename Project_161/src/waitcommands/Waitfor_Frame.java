@@ -23,7 +23,7 @@ public class Waitfor_Frame
 	
 		
 		//click Signin button
-		WebElement SignIn_btn=driver.findElement(By.xpath("//button[contains(@class,'login-btn')]"));
+		WebElement SignIn_btn=driver.findElement(By.xpath("//button[@class='login-btn'][contains(.,'Sign in')]"));
 		SignIn_btn.click();
 		
 		//Identify frame locator
