@@ -20,11 +20,11 @@ public class Read_WebDriver_Testcase
 		System.out.println("file located");
 		
 		//Get Workbook Usng above location
-		XSSFWorkbook book=new XSSFWorkbook(fi);
+		XSSFWorkbook wbook=new XSSFWorkbook(fi);
 		System.out.println("Workbook Accessed");
 		
 		//Target sheet using above workbook
-		XSSFSheet sht=book.getSheet("Sheet2");
+		XSSFSheet sht=wbook.getSheet("Sheet2");
 		
 		//Target row
 		XSSFRow row=sht.getRow(1);
