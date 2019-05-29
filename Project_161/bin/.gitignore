@@ -1,4 +1,11 @@
+/pageobjects/
+/robotactions/
+/selenium_webdriver/
+/sikuli_Image_tool/
+/switch_commands/
+/validation_Commands/
+/variables/
+/verificationcommands/
 /waitcommands/
 /webdriver_locator/
 /framework_datadriven/
-/datadrivern/
