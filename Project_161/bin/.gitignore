@@ -1,3 +1,15 @@
+/browser_launch/
+/capturescreen/
+/conditional_Statements/
+/corejava/
+/database_connection/
+/excel_package/
+/extent_reports/
+/findelements/
+/framework_datadriven/
+/javascript/
+/mouse_and_keyboard_interactions/
+/notepad_package/
 /pageobjects/
 /robotactions/
 /selenium_webdriver/
@@ -8,4 +20,3 @@
 /verificationcommands/
 /waitcommands/
 /webdriver_locator/
-/framework_datadriven/
