@@ -10,32 +10,32 @@ public class FB_Signup
 {
 	
 	@FindBy(how=How.ID,using="u_0_j") 
-	WebElement firstname_EB;
+	public WebElement firstname_EB;
 	
 	@FindBy(xpath="//input[@name='lastname']")
-	@CacheLookup WebElement Surname_EB;
+	public @CacheLookup WebElement Surname_EB;
 	
 	@FindBy(xpath = "//input[@name='reg_email__']")
-	WebElement Mobile_or_Email_EB;
+	public WebElement Mobile_or_Email_EB;
 	
 	
 	@FindBy(xpath = "//input[@aria-label='Re-enter email address']")
-	WebElement Retype_Mobile_or_email_EB;
+	public WebElement Retype_Mobile_or_email_EB;
 
 	@FindBy(xpath = "//input[@data-type='password']")
-	WebElement password_EB;
+	public WebElement password_EB;
 	
 	@FindBy(xpath = "//select[@id='day']")
-	WebElement DOB_Day_Dropdown;
+	public WebElement DOB_Day_Dropdown;
 	
 	@FindBy(xpath = "//select[@id='month']")
-	WebElement DOB_Month_Dropdown;
+	public WebElement DOB_Month_Dropdown;
 	
 	@FindBy(xpath = "//select[@id='year']")
-	WebElement DOB_Year_Dropdown;
+	public WebElement DOB_Year_Dropdown;
 	
 	@FindBy(xpath="//form[@id='reg']/select")
-	List<WebElement> DOB_Dropdowns;
+	public List<WebElement> DOB_Dropdowns;
 	
 	/*
 	 * The element is now looked up using the name attribute,
