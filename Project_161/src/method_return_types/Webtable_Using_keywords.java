@@ -3,7 +3,7 @@ package method_return_types;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class Webtable_Using_keywords extends Repository
+public class Webtable_Using_keywords 
 {
 	
 	public static void main(String args[])
@@ -20,14 +20,17 @@ public class Webtable_Using_keywords extends Repository
 		obj.Click_element(By.xpath("(//a[contains(.,'markets')])[1]"));
 		
 		
-		WebElement Cell=obj.Get_Static_Webtable_Cell("//div[@id='pnl_Bse']/table", 4, 0);
-		String Stockname=Cell.getText();
-		System.out.println("Stoctnam is => "+Stockname);
-		 
+		WebElement CellAddress=obj.Get_Static_Webtable_Cell("//table[@id='Table4']", 1, 2);
+		String celldata=CellAddress.getText();
+		System.out.println(celldata);
 		
 		
-		WebElement dynamiccell=obj.Get_Dynaic_Webtable_Cell("//div[@id='pnl_Bse']/table", "STABAN", 7);
-		dynamiccell.click();
+		
+		//Get Dynamic Webtable
+		WebElement DynamicCell=obj.Get_Dynaic_Webtable_Cell("//div[@id='pnl_Bse']/table","POWGRI", 7);
+		DynamicCell.findElement(By.tagName("a")).click();
+		
+		
 	}
 
 }
