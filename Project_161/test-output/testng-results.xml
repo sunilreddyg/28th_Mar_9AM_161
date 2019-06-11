@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[f method executed]]>
+    </line>
+    <line>
+      <![CDATA[x method executed]]>
+    </line>
+    <line>
+      <![CDATA[a method executed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47" started-at="2019-06-11T05:09:03Z" finished-at="2019-06-11T05:09:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47" started-at="2019-06-11T05:09:03Z" finished-at="2019-06-11T05:09:03Z">
+      <class name="framework_testng.Method_priority">
+        <test-method status="PASS" signature="f()[pri:0, instance:framework_testng.Method_priority@724af044]" name="f" duration-ms="0" started-at="2019-06-11T10:39:03Z" finished-at="2019-06-11T10:39:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[f method executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="a()[pri:2, instance:framework_testng.Method_priority@724af044]" name="a" duration-ms="0" started-at="2019-06-11T10:39:03Z" finished-at="2019-06-11T10:39:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[a method executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="x()[pri:1, instance:framework_testng.Method_priority@724af044]" name="x" duration-ms="0" started-at="2019-06-11T10:39:03Z" finished-at="2019-06-11T10:39:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[x method executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- x -->
+      </class> <!-- framework_testng.Method_priority -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

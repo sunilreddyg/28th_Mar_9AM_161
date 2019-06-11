@@ -8,6 +8,7 @@
 /extent_reports/
 /findelements/
 /framework_datadriven/
+/framework_junit/
 /javascript/
 /keyword_driven_Framework/
 /method_parameters/
@@ -24,4 +25,5 @@
 /verificationcommands/
 /waitcommands/
 /webdriver_locator/
-/framework_junit/
+/framework_testng/
+/keywords_Testng/
