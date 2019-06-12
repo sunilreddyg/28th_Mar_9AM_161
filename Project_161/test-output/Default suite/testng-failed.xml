@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="framework_testng.TestNg_WithExtentReports">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="tc002_Verify_Downloadpage"/>
+          <include name="beforemethod"/>
+          <include name="afterClass"/>
+          <include name="AfterTest"/>
+        </methods>
+      </class> <!-- framework_testng.TestNg_WithExtentReports -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -24,6 +24,6 @@ public class Method_Ignore {
 	  public void tc003()
 	  {
 		  //true enable to print reprot at console.
-	  Reporter.log("tc003 executed",true);
+		  Reporter.log("tc003 executed",true);
 	  }
 }
