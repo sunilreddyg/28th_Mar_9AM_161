@@ -1,59 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13041" started-at="2019-06-12T05:17:43Z" finished-at="2019-06-12T05:17:56Z">
+  <suite name="Default suite" duration-ms="9301" started-at="2019-06-13T05:16:17Z" finished-at="2019-06-13T05:16:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13041" started-at="2019-06-12T05:17:43Z" finished-at="2019-06-12T05:17:56Z">
-      <class name="framework_testng.TestNg_WithExtentReports">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:framework_testng.TestNg_WithExtentReports@d8355a8]" name="beforeClass" is-config="true" duration-ms="6856" started-at="2019-06-12T10:47:43Z" finished-at="2019-06-12T10:47:50Z">
+    <test name="Default test" duration-ms="9301" started-at="2019-06-13T05:16:17Z" finished-at="2019-06-13T05:16:26Z">
+      <class name="framework_testng.pageobjects.Run_PageFactory_using_Testng">
+        <test-method status="PASS" signature="Browser_initiation()[pri:0, instance:framework_testng.pageobjects.Run_PageFactory_using_Testng@224edc67]" name="Browser_initiation" is-config="true" duration-ms="8361" started-at="2019-06-13T10:46:17Z" finished-at="2019-06-13T10:46:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="tc001_VerifyHomepage()[pri:0, instance:framework_testng.TestNg_WithExtentReports@d8355a8]" name="tc001_VerifyHomepage" duration-ms="16" started-at="2019-06-12T10:47:50Z" finished-at="2019-06-12T10:47:50Z">
+        </test-method> <!-- Browser_initiation -->
+        <test-method status="PASS" signature="Create_Account()[pri:0, instance:framework_testng.pageobjects.Run_PageFactory_using_Testng@224edc67]" name="Create_Account" duration-ms="894" started-at="2019-06-13T10:46:25Z" finished-at="2019-06-13T10:46:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc001_VerifyHomepage -->
-        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:framework_testng.TestNg_WithExtentReports@d8355a8]" name="beforemethod" is-config="true" duration-ms="0" started-at="2019-06-12T10:47:50Z" finished-at="2019-06-12T10:47:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void framework_testng.TestNg_WithExtentReports.tc001_VerifyHomepage()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="tc002_Verify_Downloadpage()[pri:0, instance:framework_testng.TestNg_WithExtentReports@d8355a8]" name="tc002_Verify_Downloadpage" duration-ms="653" started-at="2019-06-12T10:47:50Z" finished-at="2019-06-12T10:47:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc002_Verify_Downloadpage -->
-        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:framework_testng.TestNg_WithExtentReports@d8355a8]" name="beforemethod" is-config="true" duration-ms="0" started-at="2019-06-12T10:47:50Z" finished-at="2019-06-12T10:47:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void framework_testng.TestNg_WithExtentReports.tc002_Verify_Downloadpage()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:framework_testng.TestNg_WithExtentReports@d8355a8]" name="AfterTest" is-config="true" duration-ms="0" started-at="2019-06-12T10:47:50Z" finished-at="2019-06-12T10:47:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterTest -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:framework_testng.TestNg_WithExtentReports@d8355a8]" name="AfterTest" is-config="true" duration-ms="1" started-at="2019-06-12T10:47:51Z" finished-at="2019-06-12T10:47:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:framework_testng.TestNg_WithExtentReports@d8355a8]" name="afterClass" is-config="true" duration-ms="5499" started-at="2019-06-12T10:47:51Z" finished-at="2019-06-12T10:47:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- framework_testng.TestNg_WithExtentReports -->
+        </test-method> <!-- Create_Account -->
+      </class> <!-- framework_testng.pageobjects.Run_PageFactory_using_Testng -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

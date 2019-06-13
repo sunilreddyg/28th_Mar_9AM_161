@@ -3,15 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="framework_testng.TestNg_WithExtentReports">
+      <class name="framework_testng.pageobjects.Run_PageFactory_using_Testng">
         <methods>
-          <include name="beforeClass"/>
-          <include name="tc002_Verify_Downloadpage"/>
-          <include name="beforemethod"/>
-          <include name="afterClass"/>
-          <include name="AfterTest"/>
+          <include name="Create_Account"/>
+          <include name="Browser_initiation"/>
         </methods>
-      </class> <!-- framework_testng.TestNg_WithExtentReports -->
+      </class> <!-- framework_testng.pageobjects.Run_PageFactory_using_Testng -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
