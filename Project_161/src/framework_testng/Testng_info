@@ -247,7 +247,7 @@ Run Suite File:--->
 	</groups>
 
 
----------------------------------How to Pass parameter from XML file-------------->>
+-----------How to Pass parameter from XML file-------------->>
 
 <suite name="sutie1" >
        <test name="test1">
@@ -264,11 +264,11 @@ Run Suite File:--->
 </suite>
 
 Note:--->	
-	name: url		:--->name of parameter
-	"http://hotmail.com" :---> parameter value    
+	name="url"       :--->name of parameter
+	value="http://hotmail.com" :---> parameter value    
 	both are userdefined
 
------------------------------------How To Retrieve parameter from XML---------
+---------How To Retrieve parameter from XML---------
 
 @Test
 @parameters("parameter_name_from_xml")
@@ -277,7 +277,7 @@ public void Testmethod(String userdefinedparameter)
 
 	s.o.p(userdefinedparameter);
 }
-------------how to retrieve multiple parameter from suite file
+-------how to retrieve multiple parameter from suite file
 
 @Test
 @parameters({"par1","par2"})

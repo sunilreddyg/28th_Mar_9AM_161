@@ -3,12 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="framework_testng.pageobjects.Run_PageFactory_using_Testng">
+      <class name="framework_testng.Suite_Parameter.Get_Parameters_From_Suite">
         <methods>
-          <include name="Create_Account"/>
-          <include name="Browser_initiation"/>
+          <include name="User_login"/>
+          <include name="User_registration"/>
+          <include name="loadWebpage"/>
+          <include name="launch_browser"/>
         </methods>
-      </class> <!-- framework_testng.pageobjects.Run_PageFactory_using_Testng -->
+      </class> <!-- framework_testng.Suite_Parameter.Get_Parameters_From_Suite -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
